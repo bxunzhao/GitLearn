@@ -38,3 +38,5 @@ git checkout －b branchname git创建并切换分支，
 	git checkout branchname  切换分支
 git branch －d branchname 删除分支
 git merge branchname 合并指定分支到当前分支
+
+git 分支冲突

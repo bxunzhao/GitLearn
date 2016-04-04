@@ -14,3 +14,5 @@ HEAD 指向当前的版本，Head^指向上一个版本
 git reset --hard ID 指向ID的版本
 
 git reflog 查看所有的历史命令纪录 
+
+git add 就是把文件添加到暂存区

@@ -22,3 +22,5 @@ git commit 将暂存区的内容提交到当前分支
 git checkout -- file 注意格式，丢弃工作区的内容（没有提交到暂存区）
 git reset HEAD file 丢弃暂存区内容（没有提交）
 git reset HEASD ID 回退版本
+
+git rm file 从版本库中删除文件，但也可以意见还原，checkout reset。。

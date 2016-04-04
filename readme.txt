@@ -1,4 +1,6 @@
 git start
+本文学习笔记来自 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
 git init 新建项目管理
 
 git add <file> 添加修改的文件，添加新的文件
@@ -62,3 +64,5 @@ git tag -s <tagname> -m "blablabla..."可以用PGP签名标签；
 命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
 
 
+致谢原作者，感谢
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000

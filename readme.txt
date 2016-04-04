@@ -8,6 +8,7 @@ git status 查看被修改过的文件
 git diff 查看修改内容
 
 git log 查看提交日志
+	--pretty=oneline 参数设置为以列表显示日志
 
 HEAD 指向当前的版本，Head^指向上一个版本
 git reset --hard ID 指向ID的版本

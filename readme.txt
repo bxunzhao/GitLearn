@@ -32,3 +32,9 @@ git rm file 从版本库中删除文件，但也可以意见还原，checkout re
 
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 
+git 分支branch
+git checkout －b branchname git创建并切换分支，
+	git branch branchname  创建分支
+	git checkout branchname  切换分支
+git branch －d branchname 删除分支
+git merge branchname 合并指定分支到当前分支

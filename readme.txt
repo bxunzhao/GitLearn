@@ -16,3 +16,9 @@ git reset --hard ID 指向ID的版本
 git reflog 查看所有的历史命令纪录 
 
 git add 就是把文件添加到暂存区
+git commit 将暂存区的内容提交到当前分支
+	初始化项目的时候，git会创建一个master分支
+
+git checkout -- file 注意格式，丢弃工作区的内容（没有提交到暂存区）
+git reset HEAD file 丢弃暂存区内容（没有提交）
+git reset HEASD ID 回退版本
